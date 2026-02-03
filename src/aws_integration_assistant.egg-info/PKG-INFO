@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: aws-integration-assistant
+Version: 0.1.0
+Requires-Dist: boto3>=1.35.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: rich>=13.0.0
+Dynamic: requires-dist

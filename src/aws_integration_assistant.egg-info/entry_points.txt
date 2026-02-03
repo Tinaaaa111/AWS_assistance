@@ -1,0 +1,2 @@
+[console_scripts]
+aws-assistant = aws_assistant.cli:main

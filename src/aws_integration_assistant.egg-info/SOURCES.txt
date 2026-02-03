@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/aws_assistant/__init__.py
+src/aws_assistant/cli.py
+src/aws_integration_assistant.egg-info/PKG-INFO
+src/aws_integration_assistant.egg-info/SOURCES.txt
+src/aws_integration_assistant.egg-info/dependency_links.txt
+src/aws_integration_assistant.egg-info/entry_points.txt
+src/aws_integration_assistant.egg-info/requires.txt
+src/aws_integration_assistant.egg-info/top_level.txt
