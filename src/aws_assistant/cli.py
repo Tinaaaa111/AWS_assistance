@@ -18,7 +18,7 @@ def scan():
     
     try:
         # Create a Lambda client
-        lambda_client = boto3.client('lambda')
+        lambda_client = boto3.client('lambda', region_name='us-west-2')
         
         # List all Lambda functions
         response = lambda_client.list_functions()
