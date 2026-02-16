@@ -58,13 +58,6 @@ aws-assistant fix-cors MyFunctionName
 **Not yet supported (coming in v0.2.0):**
 - API Gateway CORS configuration
 
-## 🛣️ Roadmap
-
-- **Week 1 (Feb 11):** v0.1.0 - Function URL CORS ✅
-- **Week 1 (Feb 14):** v0.2.0 - API Gateway CORS support
-- **Week 2:** v0.3.0 - IAM permission automation
-- **Week 3:** v0.4.0 - CloudFormation error diagnosis
-
 ## 🤝 Contributing
 
 This is an early beta. Feedback and contributions welcome!
@@ -72,10 +65,6 @@ This is an early beta. Feedback and contributions welcome!
 ## 📄 License
 
 MIT
-
-## 🏗️ Built in Public
-
-Follow the development journey: [@YourTwitter](#buildinpublic)
 
 ---
 
