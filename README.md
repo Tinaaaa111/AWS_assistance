@@ -144,11 +144,13 @@ aws-assistant fix-cors myFunction --origin https://myapp.com
 aws-assistant fix-cors myFunction --origin http://localhost:3000 --origin https://myapp.com
 ```
 
-**Development (wildcard):**
-```bash
-aws-assistant fix-cors myFunction --wildcard
-```
- **Warning:** Only use wildcard in development. Not recommended for production.
+## 🤝 Contributing
+
+This is an early beta. Feedback and contributions welcome!
+
+## 📄 License
+
+MIT
 
 ---
 
