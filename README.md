@@ -80,15 +80,23 @@ aws-assistant fix-cors MyFunction --origin https://myapp.com
 - Python 3.8 or higher
 - AWS credentials configured
 
-### Install
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/AWS_assistance.git
-cd AWS_assistance
+## Installation
 
-# Install in development mode
-pip install -e .
+### Requirements
+- Python 3.8 or higher
+- AWS credentials configured
+
+### Install from PyPI
+```bash
+pip install aws-integration-assistant
 ```
+
+### Verify Installation
+```bash
+aws-assistant --help
+```
+
+You should see the CLI help menu.
 
 ---
 
@@ -144,11 +152,11 @@ aws-assistant fix-cors myFunction --origin https://myapp.com
 aws-assistant fix-cors myFunction --origin http://localhost:3000 --origin https://myapp.com
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 This is an early beta. Feedback and contributions welcome!
 
-## 📄 License
+##  License
 
 MIT
 
@@ -291,10 +299,10 @@ VITE_URL=https://myapp.com
 
 ### v1.0 Does NOT Support:
 
-❌ **REST API CORS** - Manual configuration required (coming in v2.0)
-❌ **Proxy Integration Detection** - Cannot detect if backend must return CORS headers
-❌ **IAM Permission Fixing** - Only handles CORS (other features planned)
-❌ **CloudFormation Integration** - Manual resource management only
+ **REST API CORS** - Manual configuration required (coming in v2.0)
+ **Proxy Integration Detection** - Cannot detect if backend must return CORS headers
+ **IAM Permission Fixing** - Only handles CORS (other features planned)
+ **CloudFormation Integration** - Manual resource management only
 
 ### Current Workarounds:
 
